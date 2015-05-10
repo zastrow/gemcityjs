@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!--[if lt IE 9]> {% stylesheet no-mq %} <![endif]-->
+  <!--[if gt IE 8]><!--> {% stylesheet mq %} <!--<![endif]-->
+  {% javascript vendor/modernizr %}
+</head>
+
+<body>
+  <header>
+    <h1>
+      <a href="/">
+        Gem City JS
+      </a>
+    </h1>
+    <p>
+      Gem City JS is a meetup of web developers who share a desire to share and learn more about JavaScript.
+    </p>
+  </header>
+
+  {{ content }}
+
+  <div class="sponsorship">
+    <h2>Want to be a sponsor?</h2>
+    <p>Check out the <a href="https://docs.google.com/document/d/1nJYQRwZwBaG1OFTicwKxm0dYQHGDhwoRz_QDvG3ZG6M/edit?usp=sharing">Sponsor Prospectus</a> for more details.</p>
+  </div>
+  <footer>
+    <div class="column">
+      <h2>Who can come?</h2>
+      <p>The only prerequisite to attend is a desire to learn more about JavaScript. We'd love to see you at our next meetup.</p>
+
+      <h2>Keep track of us</h2>
+
+      <a data-icon="&#xe002;" href="http://twitter.com/gemcityjs"><span class="hidden">@gemcityjs</span></a>
+      <a data-icon="&#xe000;" href="http://github.com/gemcityjs"><span class="hidden">gemcityjs</span></a>
+      <a data-icon="&#xe001;" href="http://seesparkbox.com"><span class="hidden">sparkbox</span></a>
+
+      <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form action="http://robtarr.us1.list-manage.com/subscribe/post?u=a1369227f387e7a7a82b0eaea&amp;id=32d56762b2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="email-signup" target="_blank">
+          <label for="mce-EMAIL">Subscribe to the mailing list</label>
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+        </form>
+      </div>
+      <!--End mc_embed_signup-->
+    </div>
+
+    <div class="column">
+      <h2>Where we meet</h2>
+      <div class="vcard">
+        <div class="org">Sparkbox</div>
+        <div class="adr">
+          <div class="street-address">123 Webster St., Suite 2</div>
+          <span class="locality">Dayton</span>,
+          <span class="region">OH</span>
+        </div>
+      </div>
+      <p>You can park in the visitor lot in front of the building. We're on the second floor. Lost? Call us: <b>937.401.0915</b>.</p>
+      <iframe class="map" frameBorder='0' src='http://a.tiles.mapbox.com/v3/robtarr.map-e984ivi3.html#17/39.76300206698221/-84.18339673149107'></iframe>
+    </div>
+  </footer>
+  {% javascript gemcity %}
+  <!--[if lte IE 7]> {% javascript vendor/icomoon-lte-ie7.js %} <![endif]-->
+
+  <script type="text/javascript" src="//use.typekit.net/yff4knu.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+---
+layout: nodebots
+title: GemCityJS
+---
+
+<section class="upcoming">
+  <article class="next-meeting">
+    <h1>NodeBots Day</h1>
+    <time>July 25, 2015 - 9:00 am to 5:00 pm</time>
+    <p>{{post.title}}</p>
+    <ul class="links">
+      <li class="link-item">
+        <a href="//nodebots.io">NodeBots.io</a>
+      </li>
+      <li class="link-item">
+        <a href="{{post.rsvp_link}}">Buy My Ticket</a>
+      </li>
+    <p class="lunch">{{post.food}}</p>
+  </article>
+
+  <div class="meeting-wrapper">
+    {% for post in site.posts reversed %}
+      {% if post.when == "upcoming" %}
+        <article>
+          <h1>Upcoming Meeting</h1>
+          <time>{{post.date | date: "%b %d, %Y"}}</time>
+          <p>{{post.title}}</p>
+        </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="sponsors"

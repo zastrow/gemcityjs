@@ -1,0 +1,185 @@
+.flexbox .meeting-wrapper {
+  display: -webkit-box;           /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;              /* OLD - Firefox 19- (doesn't work very well) */
+  display: -ms-flexbox;           /* TWEENER - IE 10 */
+  display: -webkit-flex;          /* NEW - Chrome */
+  display: flex;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  -webkit-flex-wrap: wrap;
+     -moz-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-flex-direction: row;
+     -moz-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+article {
+  margin: 0 auto;
+  @include rem( margin-bottom, 3 );
+  @include rem( padding-bottom, 1.5 );
+  text-align: center;
+
+  &:nth-child(2n+1) {
+    clear: left;
+  }
+
+  h1 {
+    background: $articleHeadingBackground;
+    color: $articleHeadingText;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin: 0 auto;
+    width: 200px;
+    @include pointy-box( 38px, $articleHeadingBackground );
+  }
+
+  time {
+    @include rem( 'font-size', 1.6 );
+    font-weight: 100;
+    display: block;
+    margin-top: 10px;
+  }
+
+  p {
+    @include rem( font-size, 1.8 );
+    @include rem( margin, .5 );
+    color: $presenterText;
+  }
+}
+
+.upcoming {
+  article {
+    background: $articleBackground;
+    width: 80%;
+
+    h1 {
+      @include transform( translate( 0, -20px ) );
+      text-transform: uppercase;
+    }
+
+    &.next-meeting {
+      background: transparent url(/img/sd/grid.png);
+      @include single-box-shadow();
+      @include rem( margin, 0, 0, 3 );
+      width: 100%;
+
+      h1 {
+        background: $nextMeetingHeadingBackground;
+        border-color: $nextMeetingHeadingBackground;
+        width: 240px;
+
+        &:before, &:after {
+          color: $nextMeetingHeadingBackground;
+          top: -1px;
+        }
+      }
+    }
+
+    .lunch {
+      @include rem(font-size, 1.3)
+    }
+  }
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+}
+
+.link-item {
+  margin: .5em;
+
+  @include sb-media( 30em ) {
+    display: inline;
+  }
+}
+
+// .link-twitter {
+//   margin-right: 10px;
+// }
+
+.past {
+  background: rgba( #000, .12 );
+  float: left;
+  clear: left;
+  width: 100%;
+
+  h1 {
+    background: $prevMeetingHeadingBackground;
+    color: $prevMeetingHeadingTest;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto 3%;
+    width: 209px;
+    @include transform( translate( 0, -10px ) );
+    @include pointy-box( 20px, $prevMeetingHeadingBackground );
+
+    &:before, &:after {
+      top: -.5px;
+    }
+  }
+
+  article {
+    border-bottom: 1px solid $prevMeetingBorder;
+    @include rem( padding-bottom, 1 );
+    margin-bottom: 0;
+
+    &.ending {
+      border-bottom: none;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    time, p, a {
+      color: $prevMeetingText;
+    }
+
+    .media-link {
+      text-decoration: none;
+      margin: 0 .5em;
+
+      &:before {
+        color: $mediaLinkIcon;
+        position: relative;
+        left: -6px;
+      }
+    }
+  }
+}
+
+@include sb-media( 40em ) {
+  .upcoming {
+    article {
+      border: none;
+      float: left;
+      margin: 50px 5%;
+      width: 40%;
+
+      &.first {
+        width: 100%;
+      }
+    }
+  }
+
+  .past {
+    padding: 0 5% 5%;
+
+    article {
+      float: left;
+      margin: 0;
+      padding: 0 5% 20px;
+      width: 50%;
+
+      &:nth-child(2n+1) {
+        border-right: 1px solid $prevMeetingBorder;
+      }
+    }
+  }
+}
