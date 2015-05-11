@@ -1,0 +1,25 @@
+header {
+  background: $headerBackground url(/img/sd/dayton-map-overlay.png) no-repeat;
+
+  @include sb-media(62.5em) {
+    background-size: 100%;
+    background-position: 0 20%;
+  }
+
+  h1 {
+    margin: 0 auto;
+    width: 334px;
+    height: 252px;
+    background: url(/img/sd/gemCityJS-white.png) no-repeat 50% 50px;
+    text-indent: -9999px;
+  }
+
+  p {
+    @include rem( font-size, 2 );
+    @include rem( padding-bottom, 4 );
+    font-weight: 100;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+}

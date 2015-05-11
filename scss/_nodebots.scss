@@ -1,0 +1,25 @@
+.nodebots {
+
+  header {
+    background-repeat: repeat;
+    text-align: center;
+
+    img, span {
+      display: block;
+      margin: 0 auto;
+
+      @include sb-media(47em) {
+        display: inline;
+        margin: inherit;
+      }
+    }
+
+    @include sb-media(47em) {
+      padding-top: 2em;
+    }
+  }
+
+  .plus {
+    font-size: 7em;
+  }
+}

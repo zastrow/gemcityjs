@@ -1,0 +1,163 @@
+- title: Tessel
+  date: May 21, 2015
+  when: next
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-15258651036
+  twitter: weisjohn
+
+- title: Object Oriented CSS with Jarrett Drouillard
+  date: April, 16, 2015
+  when: past
+  meeting_time: "11:30am"
+  twitter: kuatsure
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-15258647024
+
+- title: "Bring Fun Back to JS: Step-by-Step Refactoring Toward Ember with Brandon Hays"
+  date: March 19, 2015
+  category: Framework, Ember, Refactor
+  when: past
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-15258649030
+
+- title: Tame your frontend stack with gulp.js with Ben Gladwell
+  date: February 19, 2015
+  when: past
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-15258647024
+
+- title: Hands on Testing, CI and Deployment with Ryan Cromwell
+  date: January 15, 2015
+  when: past
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-15258647024
+
+- title: Devtools with Allen May
+  date: October 16, 2014
+  category: devtools
+  when: past
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gemcity-js-tickets-13550139833
+
+- title: "Testing Your Front End JavaScript with Rob Tarr & Ryan Cromwell"
+  date: September 18, 2014
+  category: Testing
+  when: past
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-june-2014-testing-your-frontend-javascript-rob-tarr-tickets-12007706373
+
+- title: "Lineman with Justin Searls"
+  date: August 21, 2014
+  category: Build Tools
+  when: past
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-august-2014-lineman-justin-searls-tickets-12020111477
+
+- title: "Lo-Dash with John-David Dalton"
+  date: July 17, 2014
+  category: Utilities
+  when: past
+  meeting_time: "11:30am"
+  rsvp_link: http://www.eventbrite.com/e/gem-city-js-june-2014-lo-dash-john-david-dalton-tickets-12007706373
+
+- title: "Modeling the App Store and iTunes with Ember Data with Jeremy Mack"
+  date: June 19, 2014
+  category: Ember
+  when: past
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-june-2014-tickets-12007688319
+
+- title: "Lightning Talks"
+  date: May 15, 2014
+  category:
+  when: past
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-may-2014-tickets-11416722725
+
+- title: "Component oriented: the past and future of web development with Chris Nelson"
+  date: April 17, 2014
+  category: coffeescript
+  when: past
+  meeting_time: "11:30am"
+  rsvp_link: "https://www.eventbrite.com/e/gem-city-js-april-2014-tickets-11025175597"
+
+- title: CoffeeScript with Patrick Simpson
+  date: March 20, 2014
+  category: coffeescript
+  when: past
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-march-2014-tickets-10948329749
+
+- title: Journey from server to single page applications with Ember with Don Livanec
+  date: February 20, 2014
+  category: ember, rails
+  when: past
+  meeting_time: "11:30am"
+  video: http://youtu.be/-ubNF8xfJu8
+
+- title: Intro to Frontend Tooling with Adam Simpson
+  date: January 1, 2014
+  category: tools
+  when: past
+  meeting_time: "11:30am"
+  video: http://youtu.be/7xHdbV__EeE
+  slides: https://speakerdeck.com/asimpson/intro-to-frontend-tooling-gem-city-js
+
+- title: Intro to Elixir with Ryan Cromell
+  date: November 21, 2013
+  when: past
+  meeting_time: "11:30am"
+
+- title: SVGs with Kevin Rockwood
+  date: October  17, 2013
+  category:
+  when: past
+  meeting_time: "11:30am"
+
+- title: Meteor with Josh Owens
+  date: September 9, 2013
+  category: frameworks
+  when: past
+  meeting_time: "11:30am"
+
+- title: GruntJS with Adam Simpson & Rob Tarr
+  date: July 18, 2013
+  category: Build Tools, Process
+  when: past
+  meeting_time: "11:30am"
+
+- title: Responsive Javascript with Rob Tarr
+  date: June 20, 2013
+  category: RWD
+  when: past
+  meeting_time: "11:30am"
+
+- title: Knockout with Tim Larson
+  date: May 16, 2013
+  category: frameworks
+  when: past
+  meeting_time: "11:30am"
+
+- title: D3.js with Bruce Hubbard
+  date: April 18, 2013
+  category: visualization, data
+  when: past
+  meeting_time: "11:30am"
+  slides: "http://notacog.com/d3/slideshow"
+
+- title: Intro to Jasmine with Justin Searls
+  date: March 21, 2013
+  category: javascript, testing
+  when: past
+  meeting_time: "11:30am"
+  video: http://searls.testdouble.com/posts/2013-03-21-jasmine-tactics-screencast.html
+
+- title: Intro to Node.js with John Weis
+  date: February 21, 2013
+  category: javascript, testing
+  when: past
+
+- title: Intro to Coffeescript with Jeremy Mack
+  date: December 20, 2012
+  category: coffeescript
+  when: past
+  twitter: mutewinter
