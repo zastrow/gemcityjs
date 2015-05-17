@@ -23,3 +23,12 @@
     font-size: 7em;
   }
 }
+
+.upcoming {
+  article {
+    &.next-meeting {
+      margin: 0;
+    }
+  }
+}
+
