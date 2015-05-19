@@ -3,32 +3,51 @@
   header {
     background-repeat: repeat;
     text-align: center;
+    padding: 20px;
 
-    img, span {
-      display: block;
-      margin: 0 auto;
+    img {
+      height: 80px;
+
+      @include sb-media(28em) {
+        height: 120px;
+      }
 
       @include sb-media(47em) {
-        display: inline;
-        margin: inherit;
+        height: auto;
       }
-    }
-
-    @include sb-media(47em) {
-      padding-top: 2em;
     }
   }
 
   .plus {
-    font-size: 7em;
-  }
-}
+    font-size: 4em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-27%);
+    display: inline-block;
+    width: 20%;
 
-.upcoming {
-  article {
-    &.next-meeting {
-      margin: 0;
+    @include sb-media(28em) {
+      font-size: 5em;
+      transform: translateY(-40%);
+    }
+
+    @include sb-media(47em) {
+      font-size: 7em;
+      transform: translateY(-50%);
     }
   }
-}
 
+
+  .upcoming {
+    article {
+      &.next-meeting {
+        margin: 0;
+      }
+    }
+  }
+
+  .sponsor-list {
+    list-style: none;
+    padding: 0;
+  }
+}
