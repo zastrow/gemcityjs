@@ -5,38 +5,47 @@
     text-align: center;
     padding: 20px;
 
-    img {
-      height: 80px;
+    h1 {
+      background: none;
+      text-indent: 0;
+      height: auto;
+      width: auto;
+      margin: 1.1em 0;
 
-      @include sb-media(28em) {
-        height: 120px;
+      @include sb-media(45em) {
+        font-size: 3em;
+      }
+    }
+
+    .header-bot {
+      position: absolute;
+      top: 15px;
+    }
+
+    .bruiser-bot {
+      left: 9%;
+      width: 13%;
+      max-width: 125px;
+    }
+
+    .wheelie-bot {
+      right: 9%;
+      width: 21%;
+      max-width: 203px;
+    }
+
+    p {
+      font-size: 1.5em;
+
+      @include sb-media(37em) {
+        margin-top: 2em;
       }
 
-      @include sb-media(47em) {
-        height: auto;
+      @include sb-media(68em) {
+        margin-top: 0;
       }
     }
   }
-
-  .plus {
-    font-size: 4em;
-    position: relative;
-    top: 50%;
-    transform: translateY(-27%);
-    display: inline-block;
-    width: 20%;
-
-    @include sb-media(28em) {
-      font-size: 5em;
-      transform: translateY(-40%);
-    }
-
-    @include sb-media(47em) {
-      font-size: 7em;
-      transform: translateY(-50%);
-    }
-  }
-
 
   .upcoming {
     article {
@@ -44,10 +53,69 @@
         margin: 0;
       }
     }
+
+    p {
+      font-size: 1em;
+      color: #333;
+    }
+
+    .buy-ticket {
+      text-decoration: line-through;
+    }
+  }
+
+  .schedule {
+    clear: left;
+    background: #555;
+    padding: 1em 0;
+  }
+
+  .schedule-list {
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+
+    @include sb-media(43em) {
+      display: block;
+      width: 41em;
+    }
+  }
+
+  .schedule-list--item {
+    font-size: 1em;
+
+    @include sb-media(30em) {
+      font-size: 1.5em;
+    }
+
+    @include sb-media(43em) {
+      font-size: 2em;
+    }
+  }
+
+  .schedule-list--time {
+    color: #ccc;
+    display: block;
+
+    @include sb-media(43em) {
+      display: inline-block;
+      width: 6em;
+    }
+  }
+
+  .schedule-list--description {
+    display: inline-block;
+    margin-bottom: 1em;
   }
 
   .sponsor-list {
     list-style: none;
     padding: 0;
+  }
+
+  .sponsor-list--sponsor {
+    display: inline-block;
   }
 }
