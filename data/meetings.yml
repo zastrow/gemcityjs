@@ -1,9 +1,34 @@
+- title: Lightning Talks
+  date: August 20, 2015
+  when: upcoming
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-15258654045
+  twitter:
+  slides:
+
+- title: React
+  date: July 16, 2015
+  when: upcoming
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-15258653042
+  twitter:
+  slides:
+
+- title: TBD
+  date: June 18, 2015
+  when: next
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-15258652039
+  twitter:
+  slides:
+
 - title: Tessel
   date: May 21, 2015
-  when: next
+  when: past
   meeting_time: "11:30am"
   rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-15258651036
   twitter: weisjohn
+  slides: http://johnweis.com/static/tessel
 
 - title: Object Oriented CSS with Jarrett Drouillard
   date: April, 16, 2015

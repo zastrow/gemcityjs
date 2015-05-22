@@ -34,7 +34,6 @@ article {
     letter-spacing: 4px;
     margin: 0 auto;
     width: 200px;
-    @include pointy-box( 38px, $nextMeetingHeadingBackground );
   }
 
   time {
@@ -61,6 +60,7 @@ article {
           -ms-transform: translate(0, -20px);
               transform: translate(0, -20px);
       text-transform: uppercase;
+      @include pointy-box( 38px, $articleHeadingBackground );
     }
 
     &.next-meeting {
@@ -72,6 +72,7 @@ article {
       h1 {
         background: $nextMeetingHeadingBackground;
         border-color: $nextMeetingHeadingBackground;
+        @include pointy-box( 38px, $nextMeetingHeadingBackground );
         width: 240px;
       }
     }
