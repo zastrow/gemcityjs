@@ -8,7 +8,7 @@
 
 - title: React with Ron Ross
   date: July 16, 2015
-  when: upcoming
+  when: next
   meeting_time: "11:30am"
   rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-15258653042
   twitter:
@@ -16,11 +16,11 @@
 
 - title: Next level Node.js with ES6 and Modulus with Taron Foxworth
   date: June 18, 2015
-  when: next
+  when: past
   meeting_time: "11:30am"
   rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-15258652039
-  twitter:
-  slides:
+  twitter: anaptfox
+  slides: http://slides.com/anaptfox/next-level-node-js-with-es6-and-modulus#/
 
 - title: Tessel with John Weis
   date: May 21, 2015
