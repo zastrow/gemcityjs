@@ -119,4 +119,20 @@
     display: inline-block;
     margin: 1em 2em;
   }
+
+  .bring-list--heading {
+    border-top: 2px solid #e0562f;
+    width: 90%;
+    margin: 1em 5% 0;
+    padding-top: .5em;
+  }
+
+  .bring-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .bring-list--item {
+    margin: .5em 0;
+  }
 }
