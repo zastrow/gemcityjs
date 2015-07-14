@@ -9,7 +9,7 @@ module.exports = (grunt) ->
     files:
       expand: true
       cwd: 'templates/pages'
-      src: ['*.hbs']
+      src: ['**/*.hbs']
       dest: './dist/'
 
   grunt.loadNpmTasks 'assemble'
