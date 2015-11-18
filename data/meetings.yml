@@ -1,11 +1,11 @@
 - title: No Meeting for November or December
-  date: ""
+  date:
   when: next
-  meeting_time: ""
-  rsvp_link: 
-  twitter: 
+  meeting_time:
+  rsvp_link:
+  twitter:
   slides:
-  
+
 - title: Clean Up Your Frontend Builds with NPM
   date: October 15, 2015
   when: past
