@@ -1,10 +1,17 @@
 {
   "name": "gemcityjs",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "grunt buildProduction",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "version": "0.1.0",
-  "devDependencies": {
+  "dependencies": {
     "assemble": "~0.4.13",
     "connect-livereload": "~0.3.0",
     "divshot-cli": "^1.10.5",
+    "express": "^4.13.3",
     "grunt": "~0.4.1",
     "grunt-bower": "^0.18.0",
     "grunt-bushcaster": "0.0.7",
@@ -24,5 +31,8 @@
     "grunt-sass": "^0.18.1",
     "grunt-string-replace": "~0.2.7",
     "grunt-styleguide": "~0.2.4"
+  },
+  "engines": {
+    "node": "0.12.2"
   }
 }
