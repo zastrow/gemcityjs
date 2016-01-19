@@ -1,9 +1,9 @@
-- title: No Meeting for November or December
-  date:
+- title: Exploring ES2015 Generators
+  date: January 21, 2016
   when: next
-  meeting_time:
-  rsvp_link:
-  twitter:
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-20906767705
+  twitter: gemcityjs
   slides:
 
 - title: Clean Up Your Frontend Builds with NPM
