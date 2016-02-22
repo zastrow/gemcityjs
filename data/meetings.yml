@@ -1,10 +1,18 @@
+- title: "Don’t write it twice: Sharing Code between React and React Native with Chris Ridenour"
+  date: March 16, 2016
+  when: next
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-21680555124
+  twitter: cridenour
+  slides:
+
 - title: JavaScript Accessibility with Marcy Sutton
   date: February 17, 2016
-  when: next
+  when: past
   meeting_time: "11:30am"
   rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-21680554121
   twitter: marcysutton
-  slides:
+  slides: http://marcysutton.github.io/accessible-javascript/#/
 
 - title: Exploring ES2015 Generators
   date: January 21, 2016

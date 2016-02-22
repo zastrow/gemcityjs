@@ -4,7 +4,7 @@
       <article class="next-meeting">
         <h1>Next Meeting</h1>
         <time>{{date}} @ {{meeting_time}}</time>
-        <p>{{title}}</p>
+        <p>{{{title}}}</p>
         <ul class="links">
         {{#if twitter }}
           <li class="link-item">
@@ -26,7 +26,7 @@
         <article>
           <h1>Upcoming Meeting</h1>
           <time>{{date}}</time>
-          <p>{{title}}</p>
+          <p>{{{title}}}</p>
         </article>
       {{/is}}
     {{/eachReverse}}
@@ -40,7 +40,7 @@
       {{#is when "past"}}
         <article>
           <time>{{date}}</time>
-          <p>{{title}}</p>
+          <p>{{{title}}}</p>
           {{#if video }}
             <a href="{{video}}" class="media-link icon-video">Video</a>
           {{/if}}
