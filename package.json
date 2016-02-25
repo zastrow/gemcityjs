@@ -28,9 +28,10 @@
     "grunt-grunticon": "~1.0.0",
     "grunt-notify": "~0.1.4",
     "grunt-plato": "~0.2.0",
-    "grunt-sass": "^0.18.1",
+    "grunt-sass": "^1.1.0",
     "grunt-string-replace": "~0.2.7",
-    "grunt-styleguide": "~0.2.4"
+    "grunt-styleguide": "~0.2.4",
+    "node-sass": "^3.4.2"
   },
   "engines": {
     "node": "0.12.2"
