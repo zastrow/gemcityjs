@@ -2,7 +2,7 @@
   date: June 15, 2016
   when: upcoming
   meeting_time: "11:30am"
-  rsvp_link: 
+  rsvp_link:
   twitter:
   slides:
 
@@ -16,15 +16,15 @@
 
 - title: "A look at Ember, Angular &amp; React with Mike Yockey, Chuck Dascalos &amp; Adam Simpson"
   date: April 20, 2016
-  when: upcoming
+  when: next
   meeting_time: "11:30am"
-  rsvp_link:
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-21680556127
   twitter:
   slides:
 
 - title: "Don’t write it twice: Sharing Code between React and React Native with Chris Ridenour"
   date: March 16, 2016
-  when: next
+  when: past
   meeting_time: "11:30am"
   rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-21680555124
   twitter: cridenour
