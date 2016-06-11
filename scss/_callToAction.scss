@@ -1,0 +1,13 @@
+.call-to-action {
+  @include pointy-box( 38px, $callToActionBackground );
+  display: block;
+  background: $callToActionBackground;
+  margin: 1.5em auto 1em;
+  width: 10em;
+  color: #fff;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
