@@ -7,7 +7,7 @@
   color: #fff;
   text-decoration: none;
 
-  &:hover {
+  &:not(.sold-out):hover {
     text-decoration: underline;
   }
 }
