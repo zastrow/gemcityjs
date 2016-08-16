@@ -1,6 +1,22 @@
+- title: "TBD"
+  date: October 19, 2016
+  when: upcoming
+  meeting_time: "11:30am"
+  rsvp_link:
+  twitter:
+  slides:
+    
+- title: "TBD"
+  date: September 21, 2016
+  when: upcoming
+  meeting_time: "11:30am"
+  rsvp_link:
+  twitter:
+  slides:
+
 - title: "Elm with Ron Ross"
   date: August 17, 2016
-  when: upcoming
+  when: next
   meeting_time: "11:30am"
   rsvp_link:
   twitter:
@@ -8,7 +24,7 @@
 
 - title: "A look at Ember, Angular &amp; React with Mike Yockey, Chuck Dascalos &amp; Adam Simpson"
   date: July 20, 2016
-  when: next
+  when: past
   meeting_time: "11:30am"
   rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-21680559136
   twitter:
