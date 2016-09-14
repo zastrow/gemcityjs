@@ -5,10 +5,10 @@
   rsvp_link:
   twitter:
   slides:
-    
+
 - title: "TBD"
   date: September 21, 2016
-  when: upcoming
+  when: next
   meeting_time: "11:30am"
   rsvp_link:
   twitter:
@@ -16,7 +16,7 @@
 
 - title: "Elm with Ron Ross"
   date: August 17, 2016
-  when: next
+  when: past
   meeting_time: "11:30am"
   rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-21680560139?aff=ehomecard
   twitter:
