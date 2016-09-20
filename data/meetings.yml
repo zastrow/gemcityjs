@@ -6,12 +6,12 @@
   twitter:
   slides:
 
-- title: "TBD"
+- title: "Home Automation and Robots using Johnny-Five with Rob Tarr"
   date: September 21, 2016
   when: next
   meeting_time: "11:30am"
-  rsvp_link:
-  twitter:
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-21680561142
+  twitter: robtarr
   slides:
 
 - title: "Elm with Ron Ross"
