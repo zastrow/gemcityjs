@@ -1,6 +1,14 @@
+- title: "Bouncy Ball with Bryan Braun"
+  date: January 18, 2017
+  when: next
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-31266550093
+  twitter: bryanebraun
+  slides:
+
 - title: "Home Automation and Robots using Johnny-Five with Rob Tarr"
   date: October 19, 2016
-  when: next
+  when: past
   meeting_time: "11:30am"
   rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-21680561142
   twitter: robtarr
