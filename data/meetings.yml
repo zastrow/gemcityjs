@@ -1,3 +1,11 @@
+- title: "Lightning Talks: SVG with @zastrow, Machine Learning with @robtarr, and <a href='https://goo.gl/forms/Hxq0ctCtFHmImolZ2'>you</a>..."
+  date: March 15, 2017
+  when: next
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-31266519000
+  twitter:
+  slides:
+
 - title: "JavaScript &amp; AWS Lambda with Adam Simpson"
   date: February 15, 2017
   when: next
@@ -8,7 +16,7 @@
 
 - title: "Bouncy Ball with Bryan Braun"
   date: January 18, 2017
-  when: prev
+  when: past
   meeting_time: "11:30am"
   rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-31266550093
   twitter: bryanebraun
