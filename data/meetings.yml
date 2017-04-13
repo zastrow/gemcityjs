@@ -1,6 +1,14 @@
+- title: "Dependency Injection with Mike Yockey"
+  date: April 19, 2017
+  when: next
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-31266520003
+  twitter: myockey
+  slides:
+
 - title: "Lightning Talks: SVG with @zastrow, Machine Learning with @robtarr, and <a href='https://goo.gl/forms/Hxq0ctCtFHmImolZ2'>you</a>..."
   date: March 15, 2017
-  when: next
+  when: past
   meeting_time: "11:30am"
   rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-31266519000
   twitter:
@@ -8,7 +16,7 @@
 
 - title: "JavaScript &amp; AWS Lambda with Adam Simpson"
   date: February 15, 2017
-  when: next
+  when: past
   meeting_time: "11:30am"
   rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-31266517997
   twitter: a_simpson
