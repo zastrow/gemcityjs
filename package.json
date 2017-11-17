@@ -2,6 +2,7 @@
   "name": "gemcityjs",
   "main": "server.js",
   "scripts": {
+    "build": "grunt buildProduction",
     "prestart": "grunt buildProduction --force",
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
