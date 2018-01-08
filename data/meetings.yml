@@ -1,9 +1,9 @@
-- title: "No Meeting"
-  date: June 21, 2017
-  when: past
+- title: "Building Prefix Search as a Service with Jay Shenk"
+  date: January 17, 2018
+  when: next
   meeting_time: "11:30am"
-  rsvp_link:
-  twitter:
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-41932904446
+  twitter: jay_shenk
   slides:
 
 - title: "Collaborative Coding (bring your laptops)"

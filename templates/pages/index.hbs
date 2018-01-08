@@ -1,67 +1,47 @@
-{{!-- <section class="upcoming">
-  {{#each meetings}}
-    {{#is when "next"}}
-      <article class="next-meeting">
-        <h1>Next Meeting</h1>
-        <time>{{date}} @ {{meeting_time}}</time>
-        <p>{{{title}}}</p>
-        <ul class="links">
-        {{#if twitter }}
-          <li class="link-item">
-            <a class="link-twitter" href="//twitter.com/{{twitter}}">@{{twitter}}</a>
-          </li>
-        {{/if}}
-          <li class="link-item">
-            <a href="{{rsvp_link}}">RSVP</a>
-          </li>
-        </ul>
-        <p class="lunch">{{food}}</p>
-      </article>
-    {{/is}}
-  {{/each}}
+<section class="upcoming">
+  {{#each meetings}} {{#is when "next"}}
+  <article class="next-meeting">
+    <h1>Next Meeting</h1>
+    <time>{{date}} @ {{meeting_time}}</time>
+    <p>{{{title}}}</p>
+    <ul class="links">
+      {{#if twitter }}
+      <li class="link-item">
+        <a class="link-twitter" href="//twitter.com/{{twitter}}">@{{twitter}}</a>
+      </li>
+      {{/if}}
+      <li class="link-item">
+        <a href="{{rsvp_link}}">RSVP</a>
+      </li>
+    </ul>
+    <p class="lunch">{{food}}</p>
+  </article>
+  {{/is}} {{/each}}
 
   <div class="meeting-wrapper">
-    {{#eachReverse meetings}}
-      {{#is when "upcoming"}}
-        <article>
-          <h1>Upcoming Meeting</h1>
-          <time>{{date}}</time>
-          <p>{{{title}}}</p>
-        </article>
-      {{/is}}
-    {{/eachReverse}}
+    {{#eachReverse meetings}} {{#is when "upcoming"}}
+    <article>
+      <h1>Upcoming Meeting</h1>
+      <time>{{date}}</time>
+      <p>{{{title}}}</p>
+    </article>
+    {{/is}} {{/eachReverse}}
   </div>
-</section> --}}
-
-<section class="upcoming">
-  <article class="next-meeting" style="padding: 2em 3em">
-    <p>
-      We appreciate everyone coming to Gem City JS over the years. We have decided to take a hiatus for a bit.
-      We will send out an email and tweet when we decide to come back.
-      <a href="https://lamppost.io/">Check out one of the other excellent web meetups in the area.</a>
-    </p>
-    <p style="margin: 2em 0 0">
-      Thanks!
-    </p>
-  </article>
 </section>
 
 <section class="past">
   <h1>Past Meetings</h1>
   <div class="meeting-wrapper">
-    {{#each meetings}}
-      {{#is when "past"}}
-        <article>
-          <time>{{date}}</time>
-          <p>{{{title}}}</p>
-          {{#if video }}
-            <a href="{{video}}" class="media-link icon-video">Video</a>
-          {{/if}}
-          {{#if slides}}
-            <a href="{{slides}}" class="media-link">Slides</a>
-          {{/if}}
-        </article>
-      {{/is}}
-    {{/each}}
+    {{#each meetings}} {{#is when "past"}}
+    <article>
+      <time>{{date}}</time>
+      <p>{{{title}}}</p>
+      {{#if video }}
+      <a href="{{video}}" class="media-link icon-video">Video</a>
+      {{/if}} {{#if slides}}
+      <a href="{{slides}}" class="media-link">Slides</a>
+      {{/if}}
+    </article>
+    {{/is}} {{/each}}
   </div>
 </section>
