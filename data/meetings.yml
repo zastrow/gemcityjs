@@ -1,3 +1,19 @@
+- title: "Please don’t mock me—mocking 101 with Justin Searls"
+  date: January 17, 2018
+  when: upcoming
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-41932906452
+  twitter: searls
+  slides:
+
+- title: "TBD"
+  date: February 21, 2018
+  when: upcoming
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-41932905449
+  twitter: 
+  slides:
+
 - title: "Building Prefix Search as a Service with Jay Shenk"
   date: January 17, 2018
   when: next
