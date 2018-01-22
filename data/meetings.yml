@@ -1,3 +1,11 @@
+- title: "You Might Need Redux (And Its Ecosystem) with Mark Erikson"
+  date: May 16, 2018
+  when: upcoming
+  meeting_time: "11:30am"
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-41932908458
+  twitter: acemarke
+  slides: https://speakerdeck.com/jayshenk/building-prefix-search-as-a-service
+
 - title: "Animation in Data Visualization with Michael Bowman"
   date: April 18, 2018
   when: upcoming
@@ -16,7 +24,7 @@
 
 - title: "Content Security Policies with Ryan Cromwell"
   date: February 21, 2018
-  when: upcoming
+  when: next
   meeting_time: "11:30am"
   rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-41932905449
   twitter: cromwellryan
@@ -24,7 +32,7 @@
 
 - title: "Building Prefix Search as a Service with Jay Shenk"
   date: January 17, 2018
-  when: next
+  when: past
   meeting_time: "11:30am"
   rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-41932904446
   twitter: jay_shenk
