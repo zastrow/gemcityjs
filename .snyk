@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.10.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:handlebars:20151207':
+    - grunt-grunticon > grunticon-lib > handlebars:
+        patched: '2018-02-05T07:22:37.327Z'
+  'npm:minimatch:20160620':
+    - grunt-grunticon > grunticon-lib > svg-to-png > imagemin > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-02-05T07:22:37.327Z'
+    - grunt-grunticon > grunticon-lib > svg-to-png > imagemin > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-02-05T07:22:37.327Z'
+    - grunt-grunticon > grunticon-lib > svg-to-png > imagemin > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-02-05T07:22:37.327Z'
+    - grunt-grunticon > grunticon-lib > svg-to-png > imagemin > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2018-02-05T07:22:37.327Z'
+  'npm:uglify-js:20151024':
+    - grunt-grunticon > grunticon-lib > handlebars > uglify-js:
+        patched: '2018-02-05T07:22:37.327Z'
