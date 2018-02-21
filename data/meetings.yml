@@ -16,7 +16,7 @@
 
 - title: "Please don’t mock me—mocking 101 with Justin Searls"
   date: March 21, 2018
-  when: upcoming
+  when: next
   meeting_time: "11:30am"
   rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-41932906452
   twitter: searls
@@ -24,7 +24,7 @@
 
 - title: "Content Security Policies with Ryan Cromwell"
   date: February 21, 2018
-  when: next
+  when: past
   meeting_time: "11:30am"
   rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-41932905449
   twitter: cromwellryan
