@@ -6,17 +6,17 @@
   twitter: acemarke
   slides: https://speakerdeck.com/jayshenk/building-prefix-search-as-a-service
 
-- title: "Animation in Data Visualization with Michael Bowman"
+- title: "Cancelled due to scheduling conflicts"
   date: April 18, 2018
-  when: upcoming
+  when: next
   meeting_time: "11:30am"
-  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-41932907455
-  twitter: webslingerm
+  rsvp_link: 
+  twitter:
   slides:
 
 - title: "Please don’t mock me—mocking 101 with Justin Searls"
   date: March 21, 2018
-  when: next
+  when: past
   meeting_time: "11:30am"
   rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-41932906452
   twitter: searls
