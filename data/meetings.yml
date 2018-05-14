@@ -1,17 +1,17 @@
 - title: "You Might Need Redux (And Its Ecosystem) with Mark Erikson"
-  date: May 16, 2018
+  date: June 20, 2018
   when: upcoming
   meeting_time: "11:30am"
-  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-41932908458
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-41932909461
   twitter: acemarke
-  slides: https://speakerdeck.com/jayshenk/building-prefix-search-as-a-service
+  slides: 
 
-- title: "Cancelled due to scheduling conflicts"
-  date: April 18, 2018
+- title: "FlowJS with Mike Yockey"
+  date: May 16, 2018
   when: next
   meeting_time: "11:30am"
-  rsvp_link: 
-  twitter:
+  rsvp_link: https://www.eventbrite.com/e/gem-city-js-tickets-41932908458
+  twitter: myockey
   slides:
 
 - title: "Please don’t mock me—mocking 101 with Justin Searls"
