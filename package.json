@@ -1,0 +1,45 @@
+{
+  "name": "gemcityjs",
+  "version": "1.0.0",
+  "description": "JS meeting in the Gem City",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm run clean",
+    "start": "node tasks/start.js",
+    "clean": "rimraf dist/ && rimraf .tmp/",
+    "server": "node tasks/server.js",
+    "watch": "parallelshell 'node tasks/watch.js'",
+    "js": "webpack",
+    "patterns": "node tasks/patterns.js",
+    "copy": "node tasks/copy.js",
+    "sass": "node-sass sass/ -o dist/css/ --output-style compressed",
+    "postsass": "postcss --use autoprefixer -c ./postcss.config.json --no-map --dir ./dist/css ./dist/css/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zastrow/gemcityjs.git"
+  },
+  "author": "Philip Zastrow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zastrow/gemcityjs/issues"
+  },
+  "homepage": "https://github.com/zastrow/gemcityjs#readme",
+  "dependencies": {
+    "@sparkbox/downpour": "0.0.10",
+    "autoprefixer": "^9.3.1",
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
+    "express-enforces-ssl": "^1.1.0",
+    "handlebars-helpers": "^0.10.0",
+    "lodash": "^4.17.11",
+    "mime": "^2.3.1",
+    "node-sass": "^4.9.4",
+    "parallelshell": "^3.0.2",
+    "postcss-cli": "^6.0.1",
+    "rimraf": "^2.6.2",
+    "shelljs": "^0.8.2",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  }
+}

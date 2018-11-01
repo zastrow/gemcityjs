@@ -2,8 +2,7 @@
 .divshot-cache
 _SpecRunner.html
 npm-debug.log
-tmp/*
-dist/*
+.tmp/*
 .sass-cache/*
 .grunt/*
 js/*
