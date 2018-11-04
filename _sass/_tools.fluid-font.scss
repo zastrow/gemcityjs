@@ -1,0 +1,29 @@
+// Fluid Font Size
+@function start-size($size, $bp) {
+  $s: strip-units($size);
+  $b: strip-units($bp);
+  $p: $s / $b;
+
+  @return $p * 100vw;
+}
+
+@function end-size($start, $bp) {
+  $s: strip-units($start) / 100;
+  $b: strip-units($bp);
+  $p: $s * $b;
+
+  @return $p * 1rem;
+}
+
+@mixin fluid-font($size, $bp1, $bp2) {
+  $f: start-size($size, $bp1);
+  font-size: $size;
+
+  @media (min-width: $bp1) {
+    font-size: $f;
+  }
+
+  @media (min-width: $bp2) {
+    font-size: end-size($f, $bp2)
+  }
+}

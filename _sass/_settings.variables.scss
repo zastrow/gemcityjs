@@ -1,0 +1,28 @@
+
+// Fonts
+$font-serif: 'IBM Plex Serif', serif;
+$font-sans: 'IBM Plex Sans', sans-serif;
+
+
+// Colors
+$c-orange: #ED4722;
+$c-black: #18181D;
+
+// Grayscale Maker
+// Add a number and this will make a gray by
+//   darken white that percentage.
+@function gray($level) {
+  @if $level == 0 {
+    @return white;
+  }
+  @else if $level == 100 {
+    @return $c-black;
+  }
+  @else {
+    @return mix($c-black, white, $level * 1%);
+  }
+}
+
+
+// Breakpoints
+$bp-sm: 40rem;

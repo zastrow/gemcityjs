@@ -1,0 +1,18 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: $font-serif;
+  color: $c-black;
+  background: linear-gradient(to-bottom, gray(4), gray(10)) gray(4);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}

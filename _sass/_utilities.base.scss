@@ -1,0 +1,6 @@
+/* Prefix all utility classes with "util-" */
+
+// Visually hide an element, but still screen readable
+.util-visually-hidden {
+  @include visually-hidden;
+}
