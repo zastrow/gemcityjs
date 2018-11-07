@@ -1,0 +1,32 @@
+{% assign event = site.data.meetups[0] %}
+<section class="cmp-nextup">
+  <div class="obj-limit-width">
+    <div class="cmp-nextup__layout">
+      <h2 class="cmp-nextup__heading" aria-label="Next Gem City JS">Next up</h2>
+
+      <div class="cmp-nextup__title-container">
+        <h3 class="cmp-nextup__title">{{event.title}}{% if event.speaker %} with {{event.speaker}}{% endif %}</h3>
+        {% if event.link and event.link-text %}
+        <p class="cmp-nextup__link-container">
+          <a href="{{event.link}}" class="cmp-nextup__link">{{event.link-text}}</a>
+        </p>
+        {% endif %}
+      </div>
+      <div class="cmp-nextup__info">
+        <div class="cmp-nextup__date">
+          <h4>{{ event.date | date: "%B %e, %Y" }}</h4>
+        </div>
+        <div class="cmp-nextup__time">
+          <h4>{{ event.date | date: "%H:%M %p" }}</h4>
+        </div>
+        <div class="cmp-nextup__rsvp-container">
+          <h4 class="cmp-nextup__rsvp-bock">
+            <a href="{{ event.rsvp }}" class="cmp-nextup__rsvp-button">
+              RSVP
+            </a>
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

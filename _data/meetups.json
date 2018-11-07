@@ -1,0 +1,273 @@
+[
+  {
+    "speaker": "Mark Erikson",
+    "title": "You Might Need Redux (And Its Ecosystem)",
+    "date": "January 28, 2019 11:30 AM",
+    "rsvp": "https://meetup.com",
+    "link": "http://twitter.com/acemarke",
+    "link-text": "@acemarke"
+  },
+  {
+    "date": "May 16, 2018",
+    "title": "FlowJS",
+    "speaker": "Mike Yockey"
+  },
+  {
+    "date": "March 21, 2018",
+    "title": "Please don’t mock me—mocking 101",
+    "speaker": "Justin Searls"
+  },
+  {
+    "date": "February 21, 2018",
+    "title": "Content Security Policies",
+    "speaker": "Ryan Cromwell"
+  },
+  {
+    "date": "January 17, 2018",
+    "title": "Building Prefix Search as a Service",
+    "speaker": "Jay Shenk"
+  },
+  {
+    "date": "May 17, 2017",
+    "title": "Collaborative Coding (bring your laptops)",
+    "speaker": ""
+  },
+  {
+    "date": "April 19, 2017",
+    "title": "Dependency Injection",
+    "speaker": "Mike Yockey"
+  },
+  {
+    "date": "March 15, 2017",
+    "title": "Lightning Talks",
+  },
+  {
+    "date": "February 15, 2017",
+    "title": "JavaScript &amp; AWS Lambda",
+    "speaker": "Adam Simpson"
+  },
+  {
+    "date": "January 18, 2017",
+    "title": "Bouncy Ball",
+    "speaker": "Bryan Braun",
+    "link": {
+      "Slides": "https://www.slideshare.net/mobile/bryanbr4un/12-ways-to-bounce-a-ball"
+    }
+  },
+  {
+    "date": "October 19, 2016",
+    "title": "Home Automation and Robots using Johnny-Five",
+    "speaker": "Rob Tarr"
+  },
+  {
+    "date": "August 17, 2016",
+    "title": "Elm",
+    "speaker": "Ron Ross"
+  },
+  {
+    "date": "July 20, 2016",
+    "title": "A look at Ember, Angular &amp; React",
+    "speaker": "Mike Yockey, Chuck Dascalos &amp; Adam Simpson"
+  },
+  {
+    "date": "June 15, 2016",
+    "title": "A look at Ember, Angular &amp; React",
+    "speaker": "Mike Yockey, Chuck Dascalos &amp; Adam Simpson"
+  },
+  {
+    "date": "May 18, 2016",
+    "title": "A look at Ember, Angular &amp; React",
+    "speaker": "Mike Yockey, Chuck Dascalos &amp; Adam Simpson"
+  },
+  {
+    "date": "April 20, 2016",
+    "title": "A look at Ember, Angular &amp; React",
+    "speaker": "Mike Yockey, Chuck Dascalos &amp; Adam Simpson"
+  },
+  {
+    "date": "March 16, 2016",
+    "title": "Don’t write it twice: Sharing Code between React and React Native",
+    "speaker": "Chris Ridenour"
+  },
+  {
+    "date": "February 17, 2016",
+    "title": "JavaScript Accessibility",
+    "speaker": "Marcy Sutton",
+    "link": {
+      "Slides": "http://marcysutton.github.io/accessible-javascript/#/"
+    }
+  },
+  {
+    "date": "January 21, 2016",
+    "title": "Exploring ES2015 Generators",
+    "speaker": 
+  },
+  {
+    "date": "October 15, 2015",
+    "title": "Clean Up Your Frontend Builds with NPM",
+    "speaker": 
+  },
+  {
+    "date": "September 17, 2015",
+    "title": "Apiary.io",
+    "speaker": "Ryan Cromwell"
+  },
+  {
+    "date": "August 20, 2015",
+    "title": "Lightning Talks with YOU",
+    "speaker": 
+  },
+  {
+    "date": "July 16, 2015",
+    "title": "React",
+    "speaker": "Ronn Ross"
+  },
+  {
+    "date": "June 18, 2015",
+    "title": "Next level Node.js with ES6 and Modulus",
+    "speaker": "Taron Foxworth",
+    "link": {
+      "Slides": "http://slides.com/anaptfox/next-level-node-js-with-es6-and-modulus#/"
+    }
+  },
+  {
+    "date": "May 21, 2015",
+    "title": "Tessel",
+    "speaker": "John Weis",
+    "link": {
+      "Slides": "http://johnweis.com/static/tessel"
+    }
+  },
+  {
+    "date": "April, 16, 2015",
+    "title": "Object Oriented CSS",
+    "speaker": "Jarrett Drouillard"
+  },
+  {
+    "date": "March 19, 2015",
+    "title": "Bring Fun Back to JS: Step-by-Step Refactoring Toward Ember",
+    "speaker": "Brandon Hays"
+  },
+  {
+    "date": "February 19, 2015",
+    "title": "Tame your frontend stack with gulp.js",
+    "speaker": "Ben Gladwell"
+  },
+  {
+    "date": "January 15, 2015",
+    "title": "Hands on Testing, CI and Deployment",
+    "speaker": "Ryan Cromwell"
+  },
+  {
+    "date": "October 16, 2014",
+    "title": "Devtools",
+    "speaker": "Allen May"
+  },
+  {
+    "date": "September 18, 2014",
+    "title": "Testing Your Front End JavaScript",
+    "speaker": "Rob Tarr &amp; Ryan Cromwell"
+  },
+  {
+    "date": "August 21, 2014",
+    "title": "Lineman",
+    "speaker": "Justin Searls"
+  },
+  {
+    "date": "July 17, 2014",
+    "title": "Lo-Dash",
+    "speaker": "John-David Dalton"
+  },
+  {
+    "date": "June 19, 2014",
+    "title": "Modeling the App Store and iTunes with Ember Data",
+    "speaker": "Jeremy Mack"
+  },
+  {
+    "date": "May 15, 2014",
+    "title": "Lightning Talks",
+  },
+  {
+    "date": "April 17, 2014",
+    "title": "Component oriented: the past and future of web development",
+    "speaker": "Chris Nelson"
+  },
+  {
+    "date": "March 20, 2014",
+    "title": "CoffeeScript",
+    "speaker": "Patrick Simpson"
+  },
+  {
+    "date": "February 20, 2014",
+    "title": "Journey from server to single page applications with Ember",
+    "speaker": "Don Livanec",
+    "link": {
+      "Video": "http://youtu.be/-ubNF8xfJu8"
+    }
+  },
+  {
+    "date": "January 1, 2014",
+    "title": "Intro to Frontend Tooling",
+    "speaker": "Adam Simpson",
+    "link": {
+      "Slides": "https://speakerdeck.com/asimpson/intro-to-frontend-tooling-gem-city-js",
+      "Video": "http://youtu.be/7xHdbV__EeE"
+    }
+  },
+  {
+    "date": "November 21, 2013",
+    "title": "Intro to Elixir",
+    "speaker": "Ryan Cromell"
+  },
+  {
+    "date": "October  17, 2013",
+    "title": "SVGs",
+    "speaker": "Kevin Rockwood"
+  },
+  {
+    "date": "September 9, 2013",
+    "title": "Meteor",
+    "speaker": "Josh Owens"
+  },
+  {
+    "date": "July 18, 2013",
+    "title": "GruntJS",
+    "speaker": "Adam Simpson &amp; Rob Tarr"
+  },
+  {
+    "date": "June 20, 2013",
+    "title": "Responsive Javascript",
+    "speaker": "Rob Tarr"
+  },
+  {
+    "date": "May 16, 2013",
+    "title": "Knockout",
+    "speaker": "Tim Larson"
+  },
+  {
+    "date": "April 18, 2013",
+    "title": "D3.js",
+    "speaker": "Bruce Hubbard",
+    "link": {
+      "Slides": "http://notacog.com/d3/slideshow"
+    }
+  },
+  {
+    "date": "March 21, 2013",
+    "title": "Intro to Jasmine",
+    "speaker": "Justin Searls",
+    "link": {
+      "Video": "http://searls.testdouble.com/posts/2013-03-21-jasmine-tactics-screencast.html"
+    }
+  },
+  {
+    "date": "February 21, 2013",
+    "title": "Intro to Node.js",
+    "speaker": "John Weis"
+  },
+  {
+    "date": "December 20, 2012",
+    "title": "Intro to Coffeescript",
+    "speaker": "Jeremy Mack"
+  }
+]
