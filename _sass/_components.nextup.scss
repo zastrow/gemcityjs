@@ -1,3 +1,5 @@
+$bp-nextup-layout: 44rem;
+
 .cmp-nextup {
   padding: 2rem 0;
   border: {
@@ -11,8 +13,14 @@
 
   &__layout {
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
+    flex-direction: column;
+
+    @media (min-width: $bp-nextup-layout) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
   }
 
   &__heading {
@@ -27,9 +35,14 @@
   }
 
   &__title-container {
-    width: calc(70% - 1.5rem);
-    margin-left: 1.5rem;
-    order: 3;
+    order: 2;
+    margin: 1rem 0;
+
+    @media (min-width: $bp-nextup-layout) {
+      width: calc(70% - 1.5rem);
+      margin: 0 0 0 1.5rem;
+      order: 3;
+    }
   }
 
   &__title {
@@ -57,9 +70,13 @@
   }
 
   &__info {
-    width: 30%;
-    order: 2;
+    order: 3;
     line-height: 1.4;
+
+    @media (min-width: $bp-nextup-layout) {
+     order: 2;
+      width: 30%;
+    }
   }
 
   &__date {

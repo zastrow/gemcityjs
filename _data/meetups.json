@@ -4,8 +4,12 @@
     "title": "You Might Need Redux (And Its Ecosystem)",
     "date": "January 28, 2019 11:30 AM",
     "rsvp": "https://meetup.com",
-    "link": "http://twitter.com/acemarke",
-    "link-text": "@acemarke"
+    "link": [
+      {
+        "text": "@acemarke",
+        "link": "http://twitter.com/acemarke"
+      }
+    ]
   },
   {
     "date": "May 16, 2018",
@@ -29,8 +33,7 @@
   },
   {
     "date": "May 17, 2017",
-    "title": "Collaborative Coding (bring your laptops)",
-    "speaker": ""
+    "title": "Collaborative Coding (bring your laptops)"
   },
   {
     "date": "April 19, 2017",
@@ -50,9 +53,12 @@
     "date": "January 18, 2017",
     "title": "Bouncy Ball",
     "speaker": "Bryan Braun",
-    "link": {
-      "Slides": "https://www.slideshare.net/mobile/bryanbr4un/12-ways-to-bounce-a-ball"
-    }
+    "link": [
+      {
+        "text": "Slides",
+        "link": "https://www.slideshare.net/mobile/bryanbr4un/12-ways-to-bounce-a-ball"
+      }
+    ]
   },
   {
     "date": "October 19, 2016",
@@ -93,9 +99,12 @@
     "date": "February 17, 2016",
     "title": "JavaScript Accessibility",
     "speaker": "Marcy Sutton",
-    "link": {
-      "Slides": "http://marcysutton.github.io/accessible-javascript/#/"
-    }
+    "link": [
+      {
+        "text": "Slides",
+        "link": "http://marcysutton.github.io/accessible-javascript"
+      }
+    ]
   },
   {
     "date": "January 21, 2016",
@@ -126,17 +135,23 @@
     "date": "June 18, 2015",
     "title": "Next level Node.js with ES6 and Modulus",
     "speaker": "Taron Foxworth",
-    "link": {
-      "Slides": "http://slides.com/anaptfox/next-level-node-js-with-es6-and-modulus#/"
-    }
+    "link": [
+      {
+        "text": "Slides",
+        "link": "http://slides.com/anaptfox/next-level-node-js-with-es6-and-modulus"
+      }
+    ]
   },
   {
     "date": "May 21, 2015",
     "title": "Tessel",
     "speaker": "John Weis",
-    "link": {
-      "Slides": "http://johnweis.com/static/tessel"
-    }
+    "link": [
+      {
+        "text": "Slides",
+        "link": "http://johnweis.com/static/tessel"
+      }
+    ]
   },
   {
     "date": "April, 16, 2015",
@@ -201,18 +216,27 @@
     "date": "February 20, 2014",
     "title": "Journey from server to single page applications with Ember",
     "speaker": "Don Livanec",
-    "link": {
-      "Video": "http://youtu.be/-ubNF8xfJu8"
-    }
+    "link": [
+      {
+        "text": "Video",
+        "link": "http://youtu.be/-ubNF8xfJu8"
+      }
+    ]
   },
   {
     "date": "January 1, 2014",
     "title": "Intro to Frontend Tooling",
     "speaker": "Adam Simpson",
-    "link": {
-      "Slides": "https://speakerdeck.com/asimpson/intro-to-frontend-tooling-gem-city-js",
-      "Video": "http://youtu.be/7xHdbV__EeE"
-    }
+    "link": [
+      {
+        "text": "Slides",
+        "link": "https://speakerdeck.com/asimpson/intro-to-frontend-tooling-gem-city-js"
+      },
+      {
+        "text": "Video",
+        "link": "http://youtu.be/7xHdbV__EeE"
+      }
+    ]
   },
   {
     "date": "November 21, 2013",
@@ -248,17 +272,23 @@
     "date": "April 18, 2013",
     "title": "D3.js",
     "speaker": "Bruce Hubbard",
-    "link": {
-      "Slides": "http://notacog.com/d3/slideshow"
-    }
+    "link": [
+      {
+        "text": "Slideshow",
+        "link": "http://notacog.com/d3/slideshow"
+      }
+    ]
   },
   {
     "date": "March 21, 2013",
     "title": "Intro to Jasmine",
     "speaker": "Justin Searls",
-    "link": {
-      "Video": "http://searls.testdouble.com/posts/2013-03-21-jasmine-tactics-screencast.html"
-    }
+    "link": [
+      {
+        "text": "Video",
+        "link": "http://searls.testdouble.com/posts/2013-03-21-jasmine-tactics-screencast.html"
+      }
+    ]
   },
   {
     "date": "February 21, 2013",

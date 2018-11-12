@@ -7,11 +7,6 @@ body {
   font-family: $font-serif;
   color: $c-black;
   background: linear-gradient(to-bottom, gray(4), gray(10)) gray(4);
-  &::after {
-    content: '';
-    display: block;
-    height: 100vh;
-  }
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -20,4 +15,11 @@ h1, h2, h3, h4, h5, h6, p {
 
 img {
   max-width: 100%;
+}
+
+abbr,
+abbr[title] {
+  outline: none;
+  border: none;
+  text-decoration: none;
 }

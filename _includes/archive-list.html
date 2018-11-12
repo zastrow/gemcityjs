@@ -1,0 +1,28 @@
+<div class="cmp-archives">
+  <div class="obj-limit-width">
+    <h2 class="cmp-archives__heading">
+      Previous Meetups
+    </h2>
+    <ul class="cmp-archives__list">
+      {% for event in site.data.meetups %}
+        {% if forloop.first != true %}
+          <li class="cmp-archives__item">
+            <h3 class="cmp-archives__event-heading">{{ event.title }}{% if event.speaker %} with {{ event.speaker }}{% endif %}</h3>
+            <p class="cmp-archives__event-date">{{ event.date }}</p>
+            {% if event.link %}
+              <ul class="cmp-archives__links-list">
+                {% for link in event.link %}
+                  <li class="cmp-archives__link-item">
+                    <a href="{{ link.link }}" class="cmp-archives__link">
+                      {{ link.text }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>

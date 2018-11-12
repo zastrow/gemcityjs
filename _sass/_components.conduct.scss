@@ -1,0 +1,38 @@
+.cmp-conduct {
+  padding: 2rem 0 4rem;
+  line-height: 1.4;
+  background-color: gray(90);
+  color: gray(0);
+
+  &__heading {
+    text-align: center;
+    margin-bottom: 1em;
+    color: gray(40);
+  }
+
+  &__layout {
+    width: calc(100% - 2rem);
+    margin: 0 auto;
+    max-width: 40rem;
+  }
+
+  &__text {
+    & + & {
+      margin-top: 1rem;
+    }
+  }
+
+  &__link {
+    @include unlink;
+    display: inline-block;
+    padding-bottom: 0.125rem;
+    color: mix(gray(0), $c-orange, 20%);
+    box-shadow: 0 0.125rem mix(gray(0), $c-orange, 30%);
+    transition: box-shadow 150ms ease-in-out,
+                color 150ms ease-in-out;
+
+    &:hover {
+      box-shadow: 0 0.25rem mix(gray(0), $c-orange, 30%);
+    }
+  }
+}

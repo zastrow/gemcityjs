@@ -6,10 +6,12 @@
 
       <div class="cmp-nextup__title-container">
         <h3 class="cmp-nextup__title">{{event.title}}{% if event.speaker %} with {{event.speaker}}{% endif %}</h3>
-        {% if event.link and event.link-text %}
-        <p class="cmp-nextup__link-container">
-          <a href="{{event.link}}" class="cmp-nextup__link">{{event.link-text}}</a>
-        </p>
+        {% if event.link %}
+          <p class="cmp-nextup__link-container">
+            {% for link in event.link %}
+              <a href="{{link.link}}" class="cmp-nextup__link">{{link.text}}</a>
+            {% endfor %}
+          </p>
         {% endif %}
       </div>
       <div class="cmp-nextup__info">
